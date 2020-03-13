@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: rgb(201, 201, 204);
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+}
+
+/* .btn-right {
+  text-align: right;
+} */
