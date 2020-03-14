@@ -7,8 +7,8 @@ th {
   background: rgb(192, 209, 248);
 }
 
-th,
-td {
+thead th,
+tbody td {
   border: 1px solid black;
   padding: 5px;
 }
@@ -17,11 +17,36 @@ td {
   text-align: center;
 }
 
-/* .btn-right {
-  text-align: right;
-} */
 body {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  */margin: 10px;
+}
+
+header {
+  background: rgb(40, 40, 241);
+  padding: 10px;
+  color: whitesmoke;
   text-align: center;
+}
+
+input {
+  border: 1px solid;
+  font-size: 1rem;
+  border-radius: 3px;
+  padding: 5px 0px;
+}
+
+button {
+  border: 1px solid;
+  font-size: 1rem;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+.btn-right {
+  display: inline;
 }
 
 .inner-container {
@@ -30,11 +55,15 @@ body {
 
 .outer-container {
   border: 1px solid black;
-  max-width: 1000px;
-  min-width: 700px;
-  display: inline-block;
+  max-width: 1200px;
+  /* min-width: 700px; */
+  /* display: inline-block;
+  margin: 0 auto; */
 }
 
 .float-right {
   float: right;
+  font-weight: bold;
+  /* height: 39px; */
+  font-size: 1.3rem;
 }

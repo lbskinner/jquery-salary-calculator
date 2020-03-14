@@ -55,6 +55,7 @@ function render() {
   }
   // update total monthly costs in the DOM
   $(".js-total-monthly-costs").text(`${totalMonthlyCosts.toLocaleString()}`);
+  // add red background color for total monthly costs exceeds $20k
   if (totalMonthlyCosts > 20000) {
     $(".js-red-background").css("background-color", "red");
   } else {
