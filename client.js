@@ -22,6 +22,7 @@ function addEmployee(event) {
   employees.push(employeeData);
   console.log(employees);
   render();
+  $("input").val("");
 }
 
 function deleteEmployee() {
