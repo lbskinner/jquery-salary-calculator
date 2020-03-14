@@ -9,88 +9,92 @@
     <title>Salary Calculator</title>
   </head>
   <body>
-    <header>
-      <h1>Salary Calculator</h1>
-    </header>
-    <h2>Add Employee</h2>
-    <div>
-      <form class="js-submit-employee">
-        <input
-          type="text"
-          class="js-input-first-name"
-          id="first-name"
-          name="first-name"
-          placeholder="First Name"
-          required
-        />
-        <input
-          type="text"
-          class="js-input-last-name"
-          id="last-name"
-          name="last-name"
-          placeholder="Last Name"
-          required
-        />
-        <input
-          type="text"
-          class="js-input-id"
-          id="employee-id"
-          name="employee-id"
-          placeholder="ID"
-          required
-        />
-        <input
-          type="text"
-          class="js-input-title"
-          id="title"
-          name="title"
-          placeholder="Title"
-          required
-        />
-        <input
-          type="number"
-          class="js-input-annual-salary"
-          min="1"
-          id="annual-salary"
-          name="annual-salary"
-          placeholder="Annual Salary"
-          required
-        />
-        <div class="btn-right">
-          <button type="submit" class="js-submit-btn">Submit</button>
+    <div class="outer-container">
+      <div class="inner-container">
+        <header>
+          <h1>Salary Calculator</h1>
+        </header>
+        <h2>Add Employee</h2>
+        <div>
+          <form class="js-submit-employee">
+            <input
+              type="text"
+              class="js-input-first-name"
+              id="first-name"
+              name="first-name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              class="js-input-last-name"
+              id="last-name"
+              name="last-name"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="text"
+              class="js-input-id"
+              id="employee-id"
+              name="employee-id"
+              placeholder="ID"
+              required
+            />
+            <input
+              type="text"
+              class="js-input-title"
+              id="title"
+              name="title"
+              placeholder="Title"
+              required
+            />
+            <input
+              type="number"
+              class="js-input-annual-salary"
+              min="1"
+              id="annual-salary"
+              name="annual-salary"
+              placeholder="Annual Salary"
+              required
+            />
+            <div class="btn-right">
+              <button type="submit" class="js-submit-btn">Submit</button>
+            </div>
+          </form>
         </div>
-      </form>
-    </div>
-    <h2>Employees</h2>
-    <table class="js-table">
-      <thead>
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Annual Salary</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody class="js-table-body">
-        <tr class="js-table-body-row">
-          <td>Jen</td>
-          <td>Bard</td>
-          <td>4521</td>
-          <td>Team Lead</td>
-          <td>$80,000</td>
-          <td><button>Delete</button></td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="6"></td>
-        </tr>
-      </tfoot>
-    </table>
-    <div>
-      <h2>Total Monthly: $<span>0</span></h2>
+        <h2>Employees</h2>
+        <table class="js-table">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Annual Salary</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="js-table-body">
+            <tr class="js-table-body-row">
+              <td>Jen</td>
+              <td>Bard</td>
+              <td>4521</td>
+              <td>Team Lead</td>
+              <td>$80,000</td>
+              <td><button class="js-btn-delete">Delete</button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="6"></td>
+            </tr>
+          </tfoot>
+        </table>
+        <div class="float-right">
+          <h2>Total Monthly: $<span class="js-total-monthly-costs">0</span></h2>
+        </div>
+      </div>
     </div>
   </body>
 </html>
