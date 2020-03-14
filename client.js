@@ -24,7 +24,13 @@ function addEmployee(event) {
   render();
 }
 
-function deleteEmployee() {}
+function deleteEmployee() {
+  const employeeIndex = $(this).data("index");
+  console.log("DELETE:", employeeIndex);
+  employees.splice(employeeIndex, 1);
+  render();
+  console.log(employees);
+}
 
 function render() {
   $(".js-table-body").empty();
