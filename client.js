@@ -22,6 +22,7 @@ function addEmployee(event) {
   employees.push(employeeData);
   console.log(employees);
   render();
+  // clear input fields
   $("input").val("");
 }
 
@@ -54,4 +55,9 @@ function render() {
   }
   // update total monthly costs in the DOM
   $(".js-total-monthly-costs").text(`${totalMonthlyCosts.toLocaleString()}`);
+  if (totalMonthlyCosts > 20000) {
+    $(".js-red-background").css("background-color", "red");
+  } else {
+    $(".js-red-background").css("background-color", "white");
+  }
 }
