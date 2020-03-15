@@ -74,3 +74,7 @@ button {
   font-weight: bold;
   font-size: 1.3rem;
 }
+
+tbody tr:nth-child(even) {
+  background-color: rgb(228, 235, 250);
+}
