@@ -1,19 +1,20 @@
 # Tier 2 Week 7 Weekend Challenge: Salary Calculator
 
-For this challenge, we will create an application that records employee salaries and adds salaries up to report monthly costs.
+For this challenge, I created an application that records employee salaries and adds salaries up to report total monthly costs.
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+[Here](./INSTRUCTIONS.md) is the link to the project instructions.
 
 ## Description
 
-The application should have an input form that collects an employee's _first name, last name, ID number, job title, annual salary_.
+On the top part of the application, there is an input form that collects an employee's information such as _first name, last name, ID number, job title, annual salary_.
 
-A 'Submit' button should collect the input information from the form, store the information, using the stored information to calculate the total monthly costs, append this information to the DOM in table format, and clear the input fields. If the total monthly costs exceeds \$20,000, a red background color is added to the total monthly cost.
+After you entered all of the information, click the 'Submit' button which collects the input information from the form, stores the information, uses the stored information to calculate the total monthly costs, appends this information to the DOM in a table format, and clears the input fields.
 
-In addition, create a 'Delete' button for each employee added. This button removes the employee from the DOM and also remove the employ's salary from the reported total.
+The total monthly cost is displayed at the bottom of the application after the individual employees information. If the total monthly cost exceeds \$20,000, a red background color is added to the total monthly cost.
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+In addition,there is a 'Delete' button for each employee row. This button removes the employee row from the DOM and also removes the employ's salary from the reported total.
 
 ## Screen Shot
+
+Below is a screenshot of the application:
+![](salary-calculator-screenshot.png)
