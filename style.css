@@ -6,9 +6,8 @@ table {
 th {
   background: rgb(192, 209, 248);
 }
-
-thead th,
-tbody td {
+th,
+td {
   border: 1px solid black;
   padding: 5px;
 }
@@ -21,8 +20,8 @@ body {
   /* text-align: center; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  */margin: 10px;
+  /* align-items: center; */
+  margin: 10px;
 }
 
 header {
@@ -41,11 +40,21 @@ input {
 
 button {
   border: 1px solid;
-  font-size: 1rem;
   border-radius: 3px;
-  padding: 5px 20px;
+  background-color: rgb(238, 238, 238);
 }
-.btn-right {
+
+.js-btn-delete {
+  font-size: 0.8rem;
+  padding: 3px 15px;
+}
+
+.js-submit-btn {
+  font-size: 1rem;
+  padding: 5px 25px;
+}
+
+.btn-submit {
   display: inline;
 }
 
@@ -55,7 +64,6 @@ button {
 
 .outer-container {
   border: 1px solid black;
-  max-width: 1200px;
   /* min-width: 700px; */
   /* display: inline-block;
   margin: 0 auto; */
@@ -64,6 +72,5 @@ button {
 .float-right {
   float: right;
   font-weight: bold;
-  /* height: 39px; */
   font-size: 1.3rem;
 }
